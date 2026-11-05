@@ -1,0 +1,23 @@
+﻿scenario_id,requirement_id,description
+TS-CRT-01,REQ-02,Them so luong hop le vao gio
+TS-CRT-02,REQ-02,Them so luong khong hop le vao gio
+TS-CRT-03,REQ-02,Them cung SKU hai lan (cong don)
+TS-AUT-01,REQ-04,Khach dang nhap dat hang
+TS-AUT-02,REQ-04,Guest co gang dat hang
+TS-VOU-01,REQ-07,Ap ma khong ton tai
+TS-VOU-02,REQ-07,Ap lai ma da dung
+TS-VOU-03,REQ-07,Trang thai used_codes sau thanh cong / sau declined
+TS-SHP-01,REQ-09,Phi ship noi thanh tai nguong mien phi
+TS-SHP-02,REQ-09,Phi ship noi thanh duoi nguong (checkout end-to-end)
+TS-SHP-03,REQ-09,Phi ship ngoai thanh
+TS-PAY-01,REQ-10,Thanh toan COD
+TS-PAY-02,REQ-10,Thanh toan ONLINE duoc duyet
+TS-PAY-03,REQ-10,Thanh toan ONLINE bi tu choi
+TS-ORD-01,REQ-12,Tinh tong tien cua don
+TS-ORD-02,REQ-12,Tinh duy nhat cua Order ID
+TS-EMP-01,REQ-14,Checkout gio rong
+TS-EMP-02,REQ-14,Checkout gio co hang (control)
+TS-ATM-01,REQ-15,"Dat nhieu SKU, mot SKU thieu ton"
+TS-ATM-02,REQ-15,"Dat nhieu SKU, so luong dung bang ton"
+TS-SAF-01,REQ-16,API gui method la WALLET
+TS-SAF-02,REQ-16,API gui method rong

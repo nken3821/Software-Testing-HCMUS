@@ -1,0 +1,40 @@
+{
+ "3.4_price_change": {
+  "subtotal_at_add_to_cart": "600000",
+  "price_A_after_change": "250000",
+  "order_total": "675000",
+  "discount": "75000",
+  "note": "Cart.subtotal() reads catalog price LIVE -> price is not locked at add-to-cart"
+ },
+ "3.6_shared_state": {
+  "case2_subtotal_shared": "499999",
+  "case2_subtotal_isolated": "500000",
+  "stock_A_shared_after_case1": 19,
+  "stock_A_isolated": 20
+ },
+ "3.7_completeness": {
+  "rows_in_csv": 20,
+  "naive_runner_executed_PASS": 17,
+  "naive_report": "17/17 = 100% (misleading)",
+  "our_runner": {
+   "PASS": 17,
+   "BLOCKED": 3
+  },
+  "our_completeness_pct": 85.0,
+  "our_pass_rate_of_all_rows_pct": 85.0
+ },
+ "3.2_voucher_sequence": [
+  [
+   "declined",
+   "PAYMENT_DECLINED",
+   []
+  ],
+  [
+   "retry_approved",
+   "PAID",
+   [
+    "SAVE10"
+   ]
+  ]
+ ]
+}

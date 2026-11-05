@@ -1,0 +1,87 @@
+{
+ "totals": {
+  "file_rows": 38,
+  "executed": 38,
+  "PASS": 38,
+  "FAIL": 0,
+  "BLOCKED": 0,
+  "pass_rate_pct": 100.0,
+  "completeness_pct": 100.0,
+  "app_under_test": "ecommerce_app_fixed",
+  "generated_at": "2026-11-04T23:30:45"
+ },
+ "by_req": [
+  {
+   "requirement_id": "REQ-02",
+   "PASS": 6,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 6,
+   "pass_rate_pct": 100.0
+  },
+  {
+   "requirement_id": "REQ-04",
+   "PASS": 3,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 3,
+   "pass_rate_pct": 100.0
+  },
+  {
+   "requirement_id": "REQ-07",
+   "PASS": 5,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 5,
+   "pass_rate_pct": 100.0
+  },
+  {
+   "requirement_id": "REQ-09",
+   "PASS": 6,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 6,
+   "pass_rate_pct": 100.0
+  },
+  {
+   "requirement_id": "REQ-10",
+   "PASS": 4,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 4,
+   "pass_rate_pct": 100.0
+  },
+  {
+   "requirement_id": "REQ-12",
+   "PASS": 3,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 3,
+   "pass_rate_pct": 100.0
+  },
+  {
+   "requirement_id": "REQ-14",
+   "PASS": 3,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 3,
+   "pass_rate_pct": 100.0
+  },
+  {
+   "requirement_id": "REQ-15",
+   "PASS": 4,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 4,
+   "pass_rate_pct": 100.0
+  },
+  {
+   "requirement_id": "REQ-16",
+   "PASS": 4,
+   "FAIL": 0,
+   "BLOCKED": 0,
+   "total": 4,
+   "pass_rate_pct": 100.0
+  }
+ ]
+}

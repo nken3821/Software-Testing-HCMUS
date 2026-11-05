@@ -1,0 +1,24 @@
+﻿condition_id,requirement_id,description,type
+COND-CRT-01,REQ-02,Quantity la so nguyen duong (bien duoi = 1),positive/boundary
+COND-CRT-02,REQ-02,"Quantity khong hop le: 0, am, so thuc, bool",negative/boundary
+COND-CRT-03,REQ-02,Them cung SKU nhieu lan phai cong don,positive
+COND-AUT-01,REQ-04,Khach da dang nhap checkout thanh cong,positive
+COND-AUT-02,REQ-04,Khach chua dang nhap bi tu choi va khong side effect,negative
+COND-VOU-01,REQ-07,Ma khong ton tai bi tu choi,negative
+COND-VOU-02,REQ-07,Ma da dung bi tu choi,negative
+COND-VOU-03,REQ-07,used_codes chi doi khi order thanh cong,state
+COND-SHP-01,REQ-09,Noi thanh tai/tren nguong 500.000 -> 0,boundary
+COND-SHP-02,REQ-09,Noi thanh duoi nguong -> 30.000,boundary
+COND-SHP-03,REQ-09,Ngoai thanh luon 50.000,positive
+COND-PAY-01,REQ-10,"COD -> PENDING_COD, khong charge",positive
+COND-PAY-02,REQ-10,"ONLINE approved -> PAID, charge dung so tien",positive
+COND-PAY-03,REQ-10,"ONLINE declined -> loi, khong tao don/charge",negative
+COND-ORD-01,REQ-12,total = subtotal - discount + shipping,positive
+COND-ORD-02,REQ-12,Order ID khong trung giua cac don,positive
+COND-EMP-01,REQ-14,"Gio rong bi tu choi, khong side effect",negative
+COND-EMP-02,REQ-14,Gio co hang checkout binh thuong (doi chung),positive
+COND-ATM-01,REQ-15,"Co SKU thieu ton -> reject ca don, stock khong doi",negative
+COND-ATM-02,REQ-15,"So luong dat = stock (bien) duoc chap nhan, +1 bi tu choi",boundary
+COND-SAF-01,REQ-16,Method la WALLET bi tu choi dung loi,negative
+COND-SAF-02,REQ-16,Method sai khong tru kho / khong charge / khong tao don,negative/state
+COND-SAF-03,REQ-16,Method rong bi tu choi,negative/boundary

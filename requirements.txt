@@ -1,0 +1,4 @@
+pandas
+openpyxl
+matplotlib
+gradio   # optional, only for gradio_dashboard.py
